@@ -2,6 +2,8 @@
 
 \usepackage{booktabs} % For formal tables
 
+\usepackage[nolist]{acronym}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PDF information
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -48,8 +50,12 @@
 \email{joseph.demanuele@univeristy.of.malta}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Abbreviations
+\input{text/abbreviations}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Abstract
-\input{abstract/abstract}
+\input{text/abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Keywords
@@ -59,11 +65,12 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Body
-\input{body/body_text}
+
+\input{text/body_text}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bibliography
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{body/body_biblio}
+\bibliography{text/body_biblio}
 
 \end{document}
