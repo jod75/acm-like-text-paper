@@ -8,4 +8,5 @@ Changes:
 - Removed ACM specific text
 - Added PDF properties to document
 - Split text in different files for easier manageability. 
+- Added abbreviations
 
